@@ -24,8 +24,59 @@ students= ["raza","Ahsan","Ik","talha","Ahmed","Mohsin","Ali","faraz"]
 #    else:
 #        print(f"dear Ms.{s}, kal class mai ana hy") 
 
-for s in students:
-    if s == "Ahmed":
-        break
-    else:
-        print(s)
+# for s in students:
+#     if s == "Ahmed":
+#         break
+#     else:
+#         print(s)
+
+
+
+
+
+# guests = []
+# for barati in range(5):
+#     name = input("Enter guest name")
+#     guests.append(name)
+# guests
+
+# for a in range(10):
+#     if a ==5:
+#         continue
+#     else:
+#         print(a)
+
+# menu = []
+# for a in range(5):
+#     dish = input("enter your dish name")
+#     if dish == "fish":
+#         continue
+#     menu.append(dish)
+# menu
+# rates = {}
+# items = ["biryani","Karahi","Qorma","fish","kheer"]
+# for i in items:
+#     price = input(f"{i} for 300 people")
+#     rates[i] =price
+# print(rates)   
+# shop = ['charger','handfree','usb','powerbank','mouse','keyboard']
+# cart = {}
+# for i in shop:
+#     price = input(f"what is the price of  {i}")
+#     cart[i] = price
+# print(cart)
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
