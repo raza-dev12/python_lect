@@ -65,18 +65,54 @@ students= ["raza","Ahsan","Ik","talha","Ahmed","Mohsin","Ali","faraz"]
 #     price = input(f"what is the price of  {i}")
 #     cart[i] = price
 # print(cart)
-
+# import random 
+# secretNumber = random.randint(1,10)
+# chances = 3
+# while chances > 0:
+#     guess= int(input("Guess a number between 1 and 10:"))
+#     if guess == secretNumber:
+#         print("you win")
+#         break
+#     else:
+#         chances-=1
+#         print("wrong guess")
+#         print("chances left:",chances)
+# if chances == 0:
+#     print("Game Over:")
+#     print("Chances Number was",secretNumber)
             
+# pizza_names = ['fagita', 'macroni','peproni']
+# for a in pizza_names:
+#     print(a)
+
+# million = list(range(1,1000000))
+# # print(million)
+# print(min(million))
+# print(max(million))
+# print(sum(million))
+
+# odd_num = list(range(1,20,2))
+# print(odd_num)
+
+# for i in list(range(3,31,3)):
+#     print(i)
+# cubes =[]
+# for a in range(1,12):
+#     cubes.append (a**3)
+# print(cubes)
+
+# print(f"first three item in the list are : {cubes[:3]}")
+# print(f"first three item from the middle of the list are:{cubes[4:8]}")
+# print(f"last three item of the list are:{cubes[-3:]}")
 
 
+# resurent_buffet = ('biryani','pulao','karahi','mutton kunna','cream kasata')
+# for f in resurent_buffet:
+#     print(f"- {f}")
 
-
-
-
-
-
-
-
-
-
-
+alien_color = input('Enter alien color:').lower()
+if alien_color =='green':
+    print("the pklayer just earned 5 points")
+elif alien_color !='green':
+    print(f"the palyer just earned 10 points")
+    
