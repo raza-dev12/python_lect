@@ -7,6 +7,25 @@ Enhanced Version with Input Re-prompting & Advanced Features
 Feature: File Handling + Auto Grading + Data Analysis
 File: students.txt
 """
+import os
+
+FILENAME = "students.txt"
+
+# ==================== VALIDATION HELPERS ====================
+
+def is_duplicate_id(student_id):
+    """Check if ID already exists in file."""
+    try:
+        with open(FILENAME, "r") as f:
+            for line in f:
+                line = line.strip()
+                if line:  # Skip empty lines
+                    data = line.split(",")
+                    if len(data) >= 1 and data[0] == student_id:
+                        return True
+    except FileNotFoundError:
+        pass
+    return False
 # ==================== INPUT VALIDATION WITH RE-PROMPTING ====================
 
 def get_valid_id(prompt="Enter ID: ", check_unique=True):
