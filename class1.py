@@ -1,4 +1,4 @@
-students= ["raza","Ahsan","Ik","talha","Ahmed","Mohsin","Ali","faraz"]
+# students= ["raza","Ahsan","Ik","talha","Ahmed","Mohsin","Ali","faraz"]
 # for n in range(10):
 #     print(n, students[n])
 # for n in range(10):
@@ -108,11 +108,15 @@ students= ["raza","Ahsan","Ik","talha","Ahmed","Mohsin","Ali","faraz"]
 
 # resurent_buffet = ('biryani','pulao','karahi','mutton kunna','cream kasata')
 # for f in resurent_buffet:
-#     print(f"- {f}")
+# #     print(f"- {f}")
 
-alien_color = input('Enter alien color:').lower()
-if alien_color =='green':
-    print("the pklayer just earned 5 points")
-elif alien_color !='green':
-    print(f"the palyer just earned 10 points")
-    
+# alien_color = input('Enter alien color:').lower()
+# if alien_color =='green':
+#     print("the pklayer just earned 5 points")
+# elif alien_color !='green':
+#     print(f"the palyer just earned 10 points")
+
+names = [['n1','n2','n3'],['n4','n5','n6'],['n7','n8','n9']]
+print(names[2][2])
+print()
+names[2].append("hassan")
