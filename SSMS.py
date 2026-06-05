@@ -154,8 +154,6 @@ def load_all_students():
     except FileNotFoundError:
         pass
     return students
-
-
 def save_all_students(students):
     """Save all student records to file."""
     try:
@@ -166,16 +164,12 @@ def save_all_students(students):
     except Exception as e:
         print(f"❌ Error saving data: {e}")
         return False
-
-
 # ==================== CORE FUNCTIONS ====================
-
 def add_student():
     """Add a new student with auto-calculated grade."""
     print("\n" + "="*50)
     print("📘 ADD NEW STUDENT RECORD")
-    print("="*50)
-    
+    print("="*50)   
     # Get validated inputs with automatic re-prompting
     student_id = get_valid_id()
     name = get_valid_name()

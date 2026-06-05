@@ -6,7 +6,9 @@ def grade(pct):
     return "A" if pct >= 80 else "B" if pct >= 65 else "C" if pct >= 50 else "Fail"
  
 def avg(marks):0
-    return round(sum(marks) / len(marks), 2) if marks else 0
+    return round(sum(marks) / len(marks), 2)
+    if marks
+    else 0
  
 def show(r):
     s = students[r]
