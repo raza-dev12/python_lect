@@ -52,39 +52,29 @@ def get_valid_name(prompt="Enter Name: "):
     """Get and validate student name with re-prompting."""
     while True:
         name = input(prompt).strip()
-        
         if not name:
             print("❌ Name cannot be empty!")
             continue
-        
         if name.isdigit():
             print("❌ Name cannot be numeric only!")
             continue
-        
         if not name.replace(" ", "").isalpha():
             print("❌ Invalid name! Only alphabets and spaces allowed.")
             continue
-        
         return name
-
-
 def get_valid_age(prompt="Enter Age: "):
     """Get and validate age with re-prompting."""
     while True:
         age = input(prompt).strip()
-        
         if not age:
             print("❌ Age cannot be empty!")
             continue
-        
         if not age.isdigit():
             print("❌ Age must be a number!")
             continue
-        
         if int(age) <= 0:
             print("❌ Age must be greater than 0!")
             continue
-        
         return age
 
 
